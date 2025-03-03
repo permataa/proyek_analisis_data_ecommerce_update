@@ -11,7 +11,7 @@ from io import BytesIO
 def load_data():
     # Dapatkan direktori saat ini berdasarkan lokasi script
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(current_dir, "dashboard/all_data.csv")
+    file_path = os.path.join(current_dir, "dashboard", "all_data.csv")
     # # Pastikan path file terlihat
     # st.write(f"File Path: {file_path}")
     return pd.read_csv(file_path)
