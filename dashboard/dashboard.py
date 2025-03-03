@@ -19,10 +19,6 @@ def load_data():
 # Muat data
 data = load_data()
 
-st.write("Data berhasil dimuat!")
-st.dataframe(data.head())
-
-
 # Sidebar
 st.sidebar.title("E-Commerce Dashboard")
 selected_analysis = st.sidebar.selectbox(
