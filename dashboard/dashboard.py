@@ -13,7 +13,7 @@ def load_data():
     current_dir = os.path.dirname(os.path.abspath(__file__))
     # Karena dashboard.py dan all_data.csv berada di folder yang sama, gunakan current_dir langsung
     file_path = os.path.join(current_dir, "all_data.csv")
-    st.write("File path: ", file_path)  # Debugging: cek path yang dipakai
+    #st.write("File path: ", file_path)  # Debugging: cek path yang dipakai
     return pd.read_csv(file_path)
 
 # Muat data
